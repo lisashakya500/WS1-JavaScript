@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop1</title>
+</head>
+<h1>Workshop1: Exercise 1 & 2 in Console (Press F12)</h1>
+
+
+<script>
+    /*Exercise 1: Dog's Age Starts*/
+    function calDogYears(humanAge) {
+        return humanAge * 7;
+    }
+    console.log("Dog years for age 8:", calDogYears(8));
+    /*Exercise 1: Dog's Age Ends */
+
+
+
+    /*Exercise 2: Debugging Starts*/
+    // This code is broken! Find and fix the errors.
+    let i = 5;
+    let j = 10;
+    let k = 25;
+    let l = "Joe"; // Fixed: Added quotes around "Joe" as it should be a string
+    const arr = [3, 5, 7];
+    if (i < j) {
+        console.log("i is less than j");
+    } else if (j > k) {
+        console.log("j is greater than k");
+    } else {
+        console.log("j"); // Fixed: Added missing closing quote
+    }
+    for (let i = 0; i < arr.length; i++) { // Fixed: Changed 3 to arr.length to avoid index error
+        console.log(arr[i]);
+    }
+    /*Exercise 2: Debugging Ends*/
+</script>
+
+<body>
+
+</body>
+
+</html>
